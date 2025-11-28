@@ -52,6 +52,10 @@ body{
 
 .main-content{
     padding: 50px 0px;
+    
+}
+fieldset{
+    margin-bottom: 120px;
 }
 .main-content img{
     width: 1420px;
@@ -123,7 +127,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 55px; 
+    gap:10px; 
 }
 
 .btn {
@@ -239,7 +243,7 @@ legend{
 .movie-cards{
     display: flex;
     margin: 50px;
-    gap: 40px;
+    gap: 25px;
 }
 
 .card{
@@ -262,4 +266,180 @@ legend{
 }
 .popular{
     padding: 40px 40px;
+}
+/* TRENDING SECTION */
+
+.main-clock, .main-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 8px;
+    background:#141414;
+    border-radius: 50px;
+    font-size: 12px;
+    height: 30px;
+}
+
+.card-pad{
+    padding: 20px;
+    
+}
+.movie-flex{
+    display: flex;
+    gap: 45px;
+}
+
+.timing {
+    
+    font-size: 10px;
+    background-color: #141414;
+    padding: 8px 20px;
+    text-align: center;
+    border: 1px solid #333333;
+    border-radius: 50px;
+}
+.card-rel{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.must{
+    padding: 20px 25px;
+}
+.view-count{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0px 15px;
+    display: flex;
+    gap: 5px;
+    
+}
+.card-footer{
+    margin-top: 20px;
+    color: #999999;
+}
+#star{
+    width: 80px;
+}
+.must-img img{
+    width: 260px;
+}
+.pad{
+    padding: 5px 0px;
+}
+
+/* TRAIL SECTION STARTS */
+
+.trial{
+    background-image: url(images/trial-img.png);
+     width: 1280px;
+    height: 235px;
+    border: 1px solid #1F1F1F;
+    border-radius: 10px;
+}
+.trial-content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 1280px;
+    height: 235px;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+#free{
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+#free-two{
+    font-size: 16px;
+    font-weight: 300;
+    color: #999999;
+}
+.trial-btn button{
+    padding: 10px;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* FOOTER SECTION STARTS */
+.main-footer{
+    background: #0F0F0F;
+    margin-top: 120px;
+}
+.footer-content{
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.line p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+}
+#con{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.line p:first-of-type {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.con-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px ;
+    padding-top: 20px;
+}
+.con-icon div{
+    background: #262626;
+    padding: 10px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+.footer-btom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px;
+    padding: 20px 0px;
+    border-top: 1px solid #262626;
+    
+}
+.foot-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.rights p{
+    color: #999999;
+}
+.foot-right p{
+    color: #999999;
+}
+.foot-right hr{
+    height: 20px;
+    width: 1px;
+    border: none;
+    background-color: #999999;
 }
